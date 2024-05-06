@@ -5,6 +5,7 @@ package com.arlearn.tesis.tesisuns.models;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "activities")
 public class Activities {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
